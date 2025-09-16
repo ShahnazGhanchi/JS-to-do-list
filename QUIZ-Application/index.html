@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz-application</title>
+    <link rel="stylesheet" href="/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"><section></section>
+</head>
+<body>
+    <section id="quiz" class="container py-5">
+    <h2 class="text-center text-success mb-4">Select the Right Answer</h2>
+    <form id="quizForm" class="p-4 bg-light rounded shadow" novalidate>
+      <!-- Question 1 -->
+      <fieldset class="mb-4 p-3 border rounded hover-question">
+        <legend class="fw-bold mb-2">1. What is the national animal of Pakistan?</legend>
+
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="q1" id="q1a" value="Markhor">
+          <label class="form-check-label" for="q1a">Markhor</label>
+        </div>
+
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="q1" id="q1b" value="Lion">
+          <label class="form-check-label" for="q1b">Lion</label>
+        </div>
+
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="q1" id="q1c" value="Tiger">
+          <label class="form-check-label" for="q1c">Tiger</label>
+        </div>
+      </fieldset>
+
+      <!-- Question 2 -->
+      <fieldset class="mb-4 p-3 border rounded hover-question">
+        <legend class="fw-bold mb-2">2. What is the capital city of Pakistan?</legend>
+
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="q1" id="q1a" value="Islamabad">
+          <label class="form-check-label" for="q1a">Islamabad</label>
+        </div>
+
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="q1" id="q1b" value="Karachi">
+          <label class="form-check-label" for="q1b">Karachi</label>
+        </div>
+
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="q1" id="q1c" value="Lahore">
+          <label class="form-check-label" for="q1c">Lahore</label>
+        </div>
+      </fieldset>
+
+      <!-- Question 3 -->
+      <fieldset class="mb-4 p-3 border rounded hover-question">
+        <legend class="fw-bold mb-2">3. When was Quaid-e-Azam Muhammad Ali Jinnah born?</legend>
+
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="q1" id="q1a" value="1876">
+          <label class="form-check-label" for="q1a">1876</label>
+        </div>
+
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="q1" id="q1b" value="1870">
+          <label class="form-check-label" for="q1b"></label>1870</label>
+        </div>
+
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="q1" id="q1c" value="1880">
+          <label class="form-check-label" for="q1c">1880</label>
+        </div>
+      </fieldset>
+<!-- Question 4 -->
+      <fieldset class="mb-4 p-3 border rounded hover-question">
+        <legend class="fw-bold mb-2">4. Which is the largest province of Pakistan by area?</legend>
+
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="q1" id="q1a" value="Balochistan">
+          <label class="form-check-label" for="q1a">Balochistan</label>
+        </div>
+
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="q1" id="q1b" value="Punjab">
+          <label class="form-check-label" for="q1b">Punjab</label>
+        </div>
+
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="q1" id="q1c" value="Sindh">
+          <label class="form-check-label" for="q1c">Sindh</label>
+        </div>
+      </fieldset>
+      <!-- Question 5 -->
+      <fieldset class="mb-4 p-3 border rounded hover-question">
+        <legend class="fw-bold mb-2">5. What is the national flower of Pakistan?</legend>
+
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="q1" id="q1a" value="Jasmine">
+          <label class="form-check-label" for="q1a">Jasmine</label>
+        </div>
+
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="q1" id="q1b" value="Rose">
+          <label class="form-check-label" for="q1b">Rose</label>
+        </div>
+
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="q1" id="q1c" value="Tulip">
+          <label class="form-check-label" for="q1c">Tulip</label>
+        </div>
+      </fieldset>
+      <div class="text-center">
+        <!-- Give button an id — JS will attach event listener -->
+        <button type="button" id="submitBtn" class="btn btn-success px-4">See result</button>
+      </div>
+
+
+
+      
+    </form>
+     <h3 id="result" class="text-center mt-4" aria-live="polite"></h3>
+
+    </section>
+   
+
+
+
+
+    <script src="./index.js"></script>
+</body>
+</html>
